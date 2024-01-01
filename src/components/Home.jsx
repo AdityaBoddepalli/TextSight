@@ -9,7 +9,7 @@ const Info = () => {
             <p className="text-3xl 2xl:text-4xl font-semibold px-1 mb-8">
                 TextSight is a serverless NLP tool that can translate and analyze sentiment.
             </p>
-            <div className="flex flex-col justify-around items-center text-2xl 2xl:text-4xl space-y-4">
+            <div className="flex flex-col justify-around items-center text-2xl 2xl:text-4xl space-y-7">
                 <Link to={"/translate"} className="md:w-1/3 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
                     Translate
                 </Link>
@@ -25,7 +25,7 @@ const Info = () => {
 const Home = () => {
     return (
         <Container>
-            <Card className="h-2/3 w-3/5 -mt-56 pt-32 shadow-gray-700 text-5xl from-blue-200 to-cyan-200">
+            <Card className="h-4/5 w-3/5 -mt-56 pt-32 shadow-gray-700 text-5xl from-blue-200 to-cyan-200">
                 <Info />
             </Card>
         </Container>

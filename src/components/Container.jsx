@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const Nav = () => {
     return (
         <div className="flex justify-center items-center w-full h-40">
-            <h1 className="text-5xl font-medium text-gray-800">TextSight</h1>
+        <Link to={'/'}>
+            <h1 className="text-5xl capitalize hover:scale-125 duration-150 font-medium text-gray-800">TextSight</h1>
+
+        </Link>
         </div>
     )
 }

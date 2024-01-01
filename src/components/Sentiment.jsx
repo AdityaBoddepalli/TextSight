@@ -17,6 +17,7 @@ const SentimentTool = () => {
 
     const analyzeText = async () => {
         const endpoint = process.env.REACT_APP_SENTIMENT_ENDPOINT;
+        console.log(endpoint)
         const payload = {
             text: text
         };

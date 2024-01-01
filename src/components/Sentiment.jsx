@@ -17,7 +17,7 @@ const SentimentTool = () => {
 
     const analyzeText = async () => {
         const endpoint = process.env.REACT_APP_SENTIMENT_ENDPOINT;
-        console.log(endpoint)
+        console.log(endpoint);
         const payload = {
             text: text
         };
@@ -43,6 +43,7 @@ const SentimentTool = () => {
         } catch (error) {
             console.error("Error sending text for analysis");
             console.log(error)
+            console.log(`here is the endpoing; ${endpoint}`);
         }
     }
 

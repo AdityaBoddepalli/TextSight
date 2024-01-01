@@ -41,6 +41,7 @@ const SentimentTool = () => {
             setSubjectivity(data.message.subjectivity);
         } catch (error) {
             console.error("Error sending text for analysis");
+            console.log(error)
         }
     }
 
